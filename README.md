@@ -11,7 +11,9 @@ Este repositório contém scripts para copiar uma chave SSH específica para vá
 2. **test_ssh_keys.sh**: Testa a conexão SSH com os servidores para verificar se a chave foi copiada corretamente.
 
 ## Pré-requisitos
-
+```bash
+    ssh-keygen -t rsa -b 4096 -f /root/.ssh/id_rsa_terraform
+ ```
 - Uma chave SSH já gerada e localizada em `/root/.ssh/id_rsa_terraform` e `/root/.ssh/id_rsa_terraform.pub`.
 
 ## Como Usar
