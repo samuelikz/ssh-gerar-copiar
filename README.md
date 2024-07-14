@@ -1,5 +1,4 @@
-# ssh-gerar-copiar
-Gerar e copiar chave ssh para outros servidores.
+# Gerar e copiar chave ssh para outros servidores.
 
 # SSH Key Deployment and Testing
 
